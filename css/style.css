@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(209, 223, 223);
+}
+
+.button-row{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 8px;
+    gap: 5px;
+}
+
+header{
+    padding-left: 50px;
+    padding-top: 25px;
+
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.block-main{
+    height: 80vh;
+    width: 65vw;
+
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px gray;
+    background: white;
+}
+
+.block-main p{
+    font-size: 18px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
