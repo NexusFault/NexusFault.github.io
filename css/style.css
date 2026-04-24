@@ -7,11 +7,11 @@ body {
     background: rgb(209, 223, 223);
 }
 
-.button-row{
+.button-row {
+    position: fixed;
+    top: 8px;
+    right: 30px;
     display: flex;
-    justify-content: flex-end;
-    padding-right: 30px;
-    padding-top: 8px;
     gap: 5px;
 }
 
@@ -23,7 +23,7 @@ header{
     font-size: 28px;
 }
 
-.block-main{
+.block{
     height: 80vh;
     width: 65vw;
 
@@ -33,7 +33,14 @@ header{
     background: white;
 }
 
-.block-main p{
+.block h4{
+    font-size: 20px;
+    padding-left: 75px;
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+.block p{
     font-size: 18px;
     padding-left: 50px;
     padding-top: 25px;
